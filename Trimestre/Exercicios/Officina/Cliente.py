@@ -1,4 +1,4 @@
-from Trimestre.Exercicios.Officina.Pessoa import *
+from Pessoa import *
 
 class Cliente:
     def __init__(self, pessoa: Pessoa, email: str):
