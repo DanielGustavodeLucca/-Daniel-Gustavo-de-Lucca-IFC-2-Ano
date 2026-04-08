@@ -6,3 +6,5 @@ class TestarServico(unittest.TestCase):
         obj = Servico("Troca de Óleo", 50)
         self.assertEqual(obj.descricao, "Troca de Óleo")
         self.assertEqual(obj.valor, 50)
+
+unittest.main()
